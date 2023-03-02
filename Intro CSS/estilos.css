@@ -1,0 +1,33 @@
+h1{
+    color: red;
+}
+/* Estoy probando colores y fuentes */
+p{
+    color: blue;
+    font-size: 20pt;
+}
+/* Selector por id */
+/* La etiqueta que esta por detras del id, es la etique la cual afecta, tambien podemos poner solo el id y afectara a todos los que tengan */
+p#otro{
+    color: brown;
+    font-size: 12pt;
+}
+#yotro{
+    color: green;
+    font-size: 12pt; 
+}
+/* Selector por clase */
+.encabezado{
+    color: black;
+    font-size: 15pt;
+    text-transform: uppercase;
+}
+/* El asterisco significa todos.Todas las etiquetas que tengan la clase warning */
+*.warning{
+    color: red;
+    text-decoration: underline;
+}
+/* Afectar muchos a las vez */
+h1, p, .encabezado{
+    
+}

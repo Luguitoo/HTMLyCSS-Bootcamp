@@ -1,0 +1,48 @@
+/* Estilos para colores */
+/* https://coolors.co genera paleta de colores aleatorias*/
+.colores{
+    color: red;
+}
+
+.color-hexadecimal{
+    color: #3a5a40;
+}
+
+.color-rgb{
+    color: rgb(100, 0, 200);
+}
+
+.color-rgba{
+    color: rgba(10, 10, 10, 0.85);
+}
+/* Fondos */
+.fondo{
+    /* background-color: #3a5a40; */
+    background-image: url("background.jpg");
+    /* Abajo a la izquierda*/
+    background-position: left bottom;
+}
+
+/* Tamaños */
+.ancho{
+    background-color: #3a5a40;
+    width: 150px;
+}
+
+.alto{
+    background-color: aqua;
+    height: 250px;
+    width: 300px;
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: #3a5a40;
+    border-width: 1px;
+    /* border-top: none; se puede realizar con todos los sectores del borde independientemente*/
+    /* Padding es el espacio interno*/
+    /*padding: 10px 20px 30px 40px;*/
+    padding: 10px 20px;
+    /* margin es el espacio con respecto a los demas elementos*/
+    margin: 10px 20px;
+}
