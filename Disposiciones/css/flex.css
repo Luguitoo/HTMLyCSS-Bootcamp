@@ -1,0 +1,26 @@
+.flex{
+    display: flex; /* posiciona el div de una manera ordenada*/
+    background-color: yellow;
+    height: 300px;
+    width: 700px;
+    justify-content: center; /* posiciona los elementos en el centro (end, space-between, space-around)*/
+    flex-wrap: wrap; /*redimensiona a el tamano de la pantalla*/
+    align-items: stretch; /* dimensiona los elementos a la altura del contenedor */
+}
+.contenido1{
+    background-color: white;
+    width: 200px;
+    border: 1px solid blue;
+}
+
+.contenido2{
+    background-color: white;
+    width: 200px;
+    border: 1px solid blue;
+}
+.contenido3{
+    background-color: white;
+    width: 200px;
+    border: 1px solid blue;
+}
+/* https://codepen.io/enxaneta/full/adLPwv/ Ejemplos..*/

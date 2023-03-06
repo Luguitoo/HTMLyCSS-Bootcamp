@@ -1,0 +1,30 @@
+div{
+    /* no se ven afectados por el posicionamiento a los relativos*/
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.relative{
+    position: relative; /* Se posiciona en relacion a la posicion original*/
+    left: 20px;  /* 20px de la izq*/
+    margin-left: 10px;
+}
+.fixed{
+    position: fixed; /* se mantiene fijo por mas que scrolleemos */ 
+    bottom: 0px;
+    left: 0px;
+    background-color: greenyellow;
+    z-index: 10; /* indica el orden de un elemento */
+}
+.absolute{
+    position: absolute; /*se posiciona en funcion a su padre relativo */
+    top: 0px;
+}
+.sticky{
+    position: sticky; /* se mantiene relativo hasta salir de la pantalla */
+    background-color: aqua;
+    top: 0px;
+    z-index: 2;
+}

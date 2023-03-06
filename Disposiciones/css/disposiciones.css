@@ -1,0 +1,13 @@
+.div1, .div2{
+    background-color: red;
+    /* display: block; por defecto*/
+}
+
+.span2{
+    display: inline-block; 
+    /* display: inline; por defecto*/
+    float: right; /* tratando los elementos inline */
+}
+.span1{
+    float: center;
+}
